@@ -30,6 +30,32 @@
     
 }
 
+.navigazione{
+    float: right;
+    margin: 50px;
+    
+    
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    
+}
+
+
+.red-navigazione-lista{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bolder;
+    
+}
+
 
 .green{
     background-color: green;
