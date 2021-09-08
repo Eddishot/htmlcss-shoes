@@ -7,15 +7,68 @@
 .red, .green, .yellow{
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 .red{
     background-color: red;
+
 }
+.red-page{
+
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+    
+.red-page-immagine{
+    width: 100%;
+    
+}
+
 
 .green{
     background-color: green;
 }
 
+.green-page{
+    width:500px;
+    height: 500px;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.green-page-immagine{
+    width: 100%;
+}
+
 .yellow{
     background-color: yellow;
+}
+
+.yellow-page{
+   width: 500px;
+   height: 500px;
+   width: 500px;
+   height: 500px;
+   padding: 20px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   
+}
+
+.yellow-page-immagine{
+    width: 100%;
 }
